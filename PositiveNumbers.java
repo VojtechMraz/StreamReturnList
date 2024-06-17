@@ -19,5 +19,11 @@ public class PositiveNumbers {
                       .filter(number -> number > 0)
                       .collect(Collectors.toCollection(ArrayList::new));
     }
+    
+    /*  Trochu jinak
+    public static List<Integer> positive(List<Integer> numbers) {
+        return numbers.stream().filter(number -> number > 0).collect(Collectors.toList());
+    }
+    */
 
 }
